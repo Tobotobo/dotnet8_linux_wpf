@@ -146,6 +146,11 @@ MSBuild のバージョン 17.8.0-preview-23418-03+0125fc9fb (.NET)
   復元対象のすべてのプロジェクトは最新です。
 /usr/share/dotnet/sdk/8.0.100-rc.1.23455.8/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.RuntimeIdentifierInference.targets(257,5): error NETSDK1168: WPF is not supported or recommended with trimming enabled. Please go to https://aka.ms/dotnet-illink/wpf for more details. [/home/dotnet8_linux_wpf/dotnet8_linux_wpf.csproj]
 ```
+
+### 自己完結 + シングルバイナリ + トリミング + 警告無視
+_SuppressWpfTrimError
+→　未実施
+
 ### NativeAOT
 →　やっぱ無理  
 https://learn.microsoft.com/en-us/dotnet/core/deploying/trimming/incompatibilities
